@@ -1,0 +1,255 @@
+{
+  "start-time" : "2020-04-05T22:54:07.902",
+  "akka-version" : "2.6.3",
+  "akka-diagnostics-version" : "1.1.12",
+  "classpath" : "/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/job-2/target/7ec40ba3/exercises_2.13-1.3.0.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/3ca6c64f/common_2.13-1.3.0.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/1418c956/scala-library-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/b650b9cd/akka-actor_2.13-2.6.3.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/a8b341fe/config-1.4.0.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/cecd75f8/scala-java8-compat_2.13-0.9.0.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/3801c01e/akka-slf4j_2.13-2.6.3.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/b5a4b6d1/slf4j-api-1.7.30.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/7c4f3c47/logback-classic-1.2.3.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/86434440/logback-core-1.2.3.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/1c591dfd/scala-parser-combinators_2.13-1.1.2.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/e70d360c/akka-diagnostics_2.13-1.1.12.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/6c6c702c/commons-lang3-3.5.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/7832979b/cinnamon-akka_2.13-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/5336dd59/cinnamon-java-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/40a2e2da/cinnamon-core-java-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/a65b97ee/cinnamon-common-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/8637290f/cinnamon-scala_2.13-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/4dbf8530/cinnamon-core_2.13-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/8fc82389/cinnamon-jvm-metrics-producer-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/6c8821a8/cinnamon-prometheus-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/8d4e28b6/simpleclient-0.8.0.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/6eb75521/HdrHistogram-2.1.12.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/7c0c78cc/cinnamon-prometheus-httpserver-2.13.1.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/92f1e166/simpleclient_httpserver-0.8.0.jar:/private/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/011ed6de/simpleclient_common-0.8.0.jar:/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-agent/jars/cinnamon-agent-2.13.1.jar",
+  "configuration-warnings" : [],
+  "system-metrics" : {
+    "heap-init" : 268435456,
+    "heap-max" : 3817865216,
+    "heap-used" : 31813992,
+    "heap-committed" : 187170816,
+    "os-processors" : 8,
+    "mem-pool-0" : {
+      "name" : "Code Cache",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 9057152,
+      "committed" : 9109504
+    },
+    "mem-pool-1" : {
+      "name" : "Metaspace",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : -1,
+      "used" : 28291592,
+      "committed" : 30326784
+    },
+    "mem-pool-2" : {
+      "name" : "Compressed Class Space",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 3719968,
+      "committed" : 4112384
+    },
+    "mem-pool-3" : {
+      "name" : "PS Eden Space",
+      "type" : "Heap memory",
+      "init" : 67108864,
+      "max" : 1409286144,
+      "used" : 11321800,
+      "committed" : 67108864
+    },
+    "mem-pool-4" : {
+      "name" : "PS Survivor Space",
+      "type" : "Heap memory",
+      "init" : 11010048,
+      "max" : 11010048,
+      "used" : 10983064,
+      "committed" : 11010048
+    },
+    "mem-pool-5" : {
+      "name" : "PS Old Gen",
+      "type" : "Heap memory",
+      "init" : 179306496,
+      "max" : 2863661056,
+      "used" : 9509128,
+      "committed" : 109051904
+    }
+  },
+  "configuration" : {
+    "akka" : {
+        "actor" : {
+            "debug" : {
+                "lifecycle" : "on",
+                "unhandled" : "on"
+            },
+            "default-dispatcher" : {
+                "fork-join-executor" : {
+                    "parallelism-factor" : 3,
+                    "parallelism-max" : 8,
+                    "parallelism-min" : 4
+                }
+            },
+            "deployment" : {
+                "/coffee-house/barista" : {
+                    "nr-of-instances" : 4,
+                    "router" : "round-robin-pool"
+                }
+            }
+        },
+        "loggers" : [
+            "akka.event.slf4j.Slf4jLogger"
+        ],
+        "logging-filter" : "akka.event.slf4j.Slf4jLoggingFilter",
+        "loglevel" : "DEBUG",
+        "version" : "2.6.3"
+    },
+    "awt" : {
+        "toolkit" : "sun.lwawt.macosx.LWCToolkit"
+    },
+    "cinnamon" : {
+        "akka" : {
+            "actors" : {
+                "/user/*" : {
+                    "report-by" : "class"
+                }
+            },
+            "dispatchers" : {
+                "basic-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                },
+                "time-information" : {
+                    "names" : [
+                        "*"
+                    ]
+                }
+            }
+        },
+        "prometheus" : {
+            "exporters" : [
+                "http-server"
+            ],
+            "http-server" : {
+                "host" : "0.0.0.0",
+                "port" : 9001
+            }
+        }
+    },
+    "coffee-house" : {
+        "barista" : {
+            "accuracy" : 100,
+            "prepare-coffee-duration" : "2 seconds"
+        },
+        "caffeine-limit" : 1000,
+        "guest" : {
+            "duration" : "2 seconds"
+        },
+        "status-timeout" : "5 seconds",
+        "waiter" : {
+            "max-complaint" : 2
+        }
+    },
+    "excluded-sensitive-paths" : [
+        "user.home",
+        "user.dir",
+        "user.name"
+    ],
+    "file" : {
+        "encoding" : {
+            "pkg" : "sun.io"
+        },
+        "separator" : "/"
+    },
+    "gopherProxySet" : "false",
+    "java" : {
+        "awt" : {
+            "graphicsenv" : "sun.awt.CGraphicsEnvironment",
+            "printerjob" : "sun.lwawt.macosx.CPrinterJob"
+        },
+        "class" : {
+            "path" : "/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/job-2/target/7ec40ba3/exercises_2.13-1.3.0.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/3ca6c64f/common_2.13-1.3.0.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/1418c956/scala-library-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/b650b9cd/akka-actor_2.13-2.6.3.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/a8b341fe/config-1.4.0.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/cecd75f8/scala-java8-compat_2.13-0.9.0.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/3801c01e/akka-slf4j_2.13-2.6.3.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/b5a4b6d1/slf4j-api-1.7.30.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/7c4f3c47/logback-classic-1.2.3.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/86434440/logback-core-1.2.3.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/1c591dfd/scala-parser-combinators_2.13-1.1.2.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/e70d360c/akka-diagnostics_2.13-1.1.12.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/6c6c702c/commons-lang3-3.5.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/7832979b/cinnamon-akka_2.13-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/5336dd59/cinnamon-java-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/40a2e2da/cinnamon-core-java-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/a65b97ee/cinnamon-common-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/8637290f/cinnamon-scala_2.13-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/4dbf8530/cinnamon-core_2.13-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/8fc82389/cinnamon-jvm-metrics-producer-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/6c8821a8/cinnamon-prometheus-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/8d4e28b6/simpleclient-0.8.0.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/6eb75521/HdrHistogram-2.1.12.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/7c0c78cc/cinnamon-prometheus-httpserver-2.13.1.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/92f1e166/simpleclient_httpserver-0.8.0.jar:/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/sbt_2aace97a/target/011ed6de/simpleclient_common-0.8.0.jar:/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-agent/jars/cinnamon-agent-2.13.1.jar",
+            "version" : "52.0"
+        },
+        "endorsed" : {
+            "dirs" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"
+        },
+        "ext" : {
+            "dirs" : "/Users/hkumar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"
+        },
+        "home" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre",
+        "io" : {
+            "tmpdir" : "/var/folders/gl/rw5_hkg929lbx_2lk21wgh440000gn/T/"
+        },
+        "library" : {
+            "path" : "/Users/hkumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."
+        },
+        "runtime" : {
+            "name" : "Java(TM) SE Runtime Environment",
+            "version" : "1.8.0_201-b09"
+        },
+        "specification" : {
+            "name" : "Java Platform API Specification",
+            "vendor" : "Oracle Corporation",
+            "version" : "1.8"
+        },
+        "vendor" : {
+            "url" : {
+                "bug" : "http://bugreport.sun.com/bugreport/"
+            }
+        },
+        "version" : "1.8.0_201",
+        "vm" : {
+            "info" : "mixed mode",
+            "name" : "Java HotSpot(TM) 64-Bit Server VM",
+            "specification" : {
+                "name" : "Java Virtual Machine Specification",
+                "vendor" : "Oracle Corporation",
+                "version" : "1.8"
+            },
+            "vendor" : "Oracle Corporation",
+            "version" : "25.201-b09"
+        }
+    },
+    "line" : {
+        "separator" : "\n"
+    },
+    "os" : {
+        "arch" : "x86_64",
+        "name" : "Mac OS X",
+        "version" : "10.15"
+    },
+    "path" : {
+        "separator" : ":"
+    },
+    "sun" : {
+        "arch" : {
+            "data" : {
+                "model" : "64"
+            }
+        },
+        "boot" : {
+            "class" : {
+                "path" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"
+            },
+            "library" : {
+                "path" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"
+            }
+        },
+        "cpu" : {
+            "endian" : "little",
+            "isalist" : ""
+        },
+        "io" : {
+            "unicode" : {
+                "encoding" : "UnicodeBig"
+            }
+        },
+        "java" : {
+            "command" : "com.lightbend.training.coffeehouse.CoffeeHouseApp",
+            "launcher" : "SUN_STANDARD"
+        },
+        "jnu" : {
+            "encoding" : "UTF-8"
+        },
+        "management" : {
+            "compiler" : "HotSpot 64-Bit Tiered Compilers"
+        },
+        "os" : {
+            "patch" : {
+                "level" : "unknown"
+            }
+        }
+    },
+    "user" : {
+        "country" : "US",
+        "language" : "en",
+        "timezone" : "America/New_York"
+    }
+}
+}
+

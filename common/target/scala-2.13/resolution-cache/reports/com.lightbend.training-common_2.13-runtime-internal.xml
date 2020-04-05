@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.lightbend.training"
+		module="common_2.13"
+		revision="1.3.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20200329163030"/>
+	<dependencies>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-prometheus-httpserver">
+			<revision name="2.13.1" status="release" pubdate="20200110232521" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="1555" time="1636" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus-httpserver/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus-httpserver/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus-httpserver/2.13.1/cinnamon-prometheus-httpserver-2.13.1.pom"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="cinnamon-prometheus-httpserver" type="jar" ext="jar" status="successful" details="" size="3369" time="1537" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus-httpserver/jars/cinnamon-prometheus-httpserver-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus-httpserver/2.13.1/cinnamon-prometheus-httpserver-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.prometheus" name="simpleclient_httpserver">
+			<revision name="0.8.0" status="release" pubdate="20191023112504" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2003" time="35" location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient_httpserver/ivy-0.8.0.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient_httpserver/ivy-0.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_httpserver/0.8.0/simpleclient_httpserver-0.8.0.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus-httpserver" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="simpleclient_httpserver" type="bundle" ext="jar" status="successful" details="" size="10055" time="36" location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient_httpserver/bundles/simpleclient_httpserver-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_httpserver/0.8.0/simpleclient_httpserver-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.prometheus" name="simpleclient_common">
+			<revision name="0.8.0" status="release" pubdate="20191023112342" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1614" time="41" location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient_common/ivy-0.8.0.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient_common/ivy-0.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.8.0/simpleclient_common-0.8.0.pom"/>
+				<caller organisation="io.prometheus" name="simpleclient_httpserver" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="simpleclient_common" type="bundle" ext="jar" status="successful" details="" size="5840" time="125" location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient_common/bundles/simpleclient_common-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.8.0/simpleclient_common-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-prometheus">
+			<revision name="2.13.1" status="release" pubdate="20200110232139" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="18">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="1689" time="1599" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus/2.13.1/cinnamon-prometheus-2.13.1.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus-httpserver" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="cinnamon-prometheus" type="jar" ext="jar" status="successful" details="" size="41307" time="1728" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-prometheus/jars/cinnamon-prometheus-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus/2.13.1/cinnamon-prometheus-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.12" status="release" pubdate="20191210122259" resolver="public" artresolver="public" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<license name="BSD-2-Clause" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="successful" details="" size="10800" time="35" location="/Users/hkumar/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.12.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus" conf="default, compile, runtime, master" rev="2.1.12" rev-constraint-default="2.1.12" rev-constraint-dynamic="2.1.12" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="bundle" ext="jar" status="successful" details="" size="173763" time="47" location="/Users/hkumar/.ivy2/cache/org.hdrhistogram/HdrHistogram/bundles/HdrHistogram-2.1.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.prometheus" name="simpleclient">
+			<revision name="0.8.0" status="release" pubdate="20191023112326" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1601" time="36" location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient/ivy-0.8.0.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient/ivy-0.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/prometheus/simpleclient/0.8.0/simpleclient-0.8.0.pom"/>
+				<caller organisation="io.prometheus" name="simpleclient_common" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.13.1"/>
+				<caller organisation="io.prometheus" name="simpleclient_httpserver" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="simpleclient" type="bundle" ext="jar" status="successful" details="" size="59477" time="39" location="/Users/hkumar/.ivy2/cache/io.prometheus/simpleclient/bundles/simpleclient-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/prometheus/simpleclient/0.8.0/simpleclient-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-jvm-metrics-producer">
+			<revision name="2.13.1" status="release" pubdate="20200110232250" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="1387" time="1469" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-jvm-metrics-producer/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-jvm-metrics-producer/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-jvm-metrics-producer/2.13.1/cinnamon-jvm-metrics-producer-2.13.1.pom"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="cinnamon-jvm-metrics-producer" type="jar" ext="jar" status="successful" details="" size="6097" time="1409" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-jvm-metrics-producer/jars/cinnamon-jvm-metrics-producer-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-jvm-metrics-producer/2.13.1/cinnamon-jvm-metrics-producer-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13">
+			<revision name="2.13.1" status="release" pubdate="20200110233144" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="4076" time="1499" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-akka_2.13/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-akka_2.13/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-akka_2.13/2.13.1/cinnamon-akka_2.13-2.13.1.pom"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="cinnamon-akka_2.13" type="jar" ext="jar" status="successful" details="" size="262815" time="1974" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-akka_2.13/jars/cinnamon-akka_2.13-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-akka_2.13/2.13.1/cinnamon-akka_2.13-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-scala_2.13">
+			<revision name="2.13.1" status="release" pubdate="20200110233015" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="1967" time="1625" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-scala_2.13/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-scala_2.13/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-scala_2.13/2.13.1/cinnamon-scala_2.13-2.13.1.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="cinnamon-scala_2.13" type="jar" ext="jar" status="successful" details="" size="34358" time="1569" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-scala_2.13/jars/cinnamon-scala_2.13-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-scala_2.13/2.13.1/cinnamon-scala_2.13-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-core_2.13">
+			<revision name="2.13.1" status="release" pubdate="20200110232153" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="1500" time="1635" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core_2.13/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core_2.13/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-core_2.13/2.13.1/cinnamon-core_2.13-2.13.1.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-scala_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="cinnamon-core_2.13" type="jar" ext="jar" status="successful" details="" size="94473" time="1747" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core_2.13/jars/cinnamon-core_2.13-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-core_2.13/2.13.1/cinnamon-core_2.13-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-java">
+			<revision name="2.13.1" status="release" pubdate="20200110232931" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="2007" time="1641" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-java/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-java/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-java/2.13.1/cinnamon-java-2.13.1.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="cinnamon-java" type="jar" ext="jar" status="successful" details="" size="20124" time="1620" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-java/jars/cinnamon-java-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-java/2.13.1/cinnamon-java-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-core-java">
+			<revision name="2.13.1" status="release" pubdate="20200110232023" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="1556" time="1540" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core-java/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core-java/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-core-java/2.13.1/cinnamon-core-java-2.13.1.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-core_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-jvm-metrics-producer" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-java" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="cinnamon-core-java" type="jar" ext="jar" status="successful" details="" size="98394" time="1803" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-core-java/jars/cinnamon-core-java-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-core-java/2.13.1/cinnamon-core-java-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-common">
+			<revision name="2.13.1" status="release" pubdate="20200110231933" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="1527" time="1582" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-common/ivy-2.13.1.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-common/ivy-2.13.1.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-common/2.13.1/cinnamon-common-2.13.1.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-core-java" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="cinnamon-common" type="jar" ext="jar" status="successful" details="" size="36770" time="1417" location="/Users/hkumar/.ivy2/cache/com.lightbend.cinnamon/cinnamon-common/jars/cinnamon-common-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/cinnamon/cinnamon-common/2.13.1/cinnamon-common-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.akka" name="akka-diagnostics_2.13">
+			<revision name="1.1.12" status="release" pubdate="20191017111655" resolver="lightbend-commercial-mvn" artresolver="lightbend-commercial-mvn" homepage="https://akka.io/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="successful" details="" size="4289" time="1215" location="/Users/hkumar/.ivy2/cache/com.lightbend.akka/akka-diagnostics_2.13/ivy-1.1.12.xml" searched="true" original-local-location="/Users/hkumar/.ivy2/cache/com.lightbend.akka/akka-diagnostics_2.13/ivy-1.1.12.xml.original" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/akka/akka-diagnostics_2.13/1.1.12/akka-diagnostics_2.13-1.1.12.pom"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="1.1.12" rev-constraint-default="1.1.12" rev-constraint-dynamic="1.1.12" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="akka-diagnostics_2.13" type="jar" ext="jar" status="successful" details="" size="130741" time="1938" location="/Users/hkumar/.ivy2/cache/com.lightbend.akka/akka-diagnostics_2.13/jars/akka-diagnostics_2.13-1.1.12.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/orfDX6eRufgs1Rot9QKcjYzn6Cz9YgHbB9Mi4-HShCwKXIU4/commercial-releases/com/lightbend/akka/akka-diagnostics_2.13/1.1.12/akka-diagnostics_2.13-1.1.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.5" status="release" pubdate="20161013155341" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<metadata-artifact status="no" details="" size="12262" time="0" location="/Users/hkumar/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom"/>
+				<caller organisation="com.lightbend.akka" name="akka-diagnostics_2.13" conf="default, compile, runtime, master" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="1.1.12"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="479881" time="0" location="/Users/hkumar/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.13">
+			<revision name="1.1.2" status="release" pubdate="20190607143535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/hkumar/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.pom"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.13" type="bundle" ext="jar" status="no" details="" size="225338" time="0" location="/Users/hkumar/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/bundles/scala-parser-combinators_2.13-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.13">
+			<revision name="2.6.3" status="release" pubdate="20200128123029" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3605" time="0" location="/Users/hkumar/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.13/ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3.pom"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.13" type="jar" ext="jar" status="no" details="" size="17078" time="0" location="/Users/hkumar/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.13/jars/akka-slf4j_2.13-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331152753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10412" time="0" location="/Users/hkumar/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="290339" time="0" location="/Users/hkumar/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331152715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7917" time="0" location="/Users/hkumar/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="471901" time="0" location="/Users/hkumar/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.30" status="release" pubdate="20191216160337" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5347" time="0" location="/Users/hkumar/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.30.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.13" conf="default, compile, runtime, master" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.30" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41472" time="0" location="/Users/hkumar/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.30.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.25" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.30"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.13">
+			<revision name="2.6.3" status="release" pubdate="20200128122747" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3362" time="0" location="/Users/hkumar/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.pom"/>
+				<caller organisation="com.lightbend.akka" name="akka-diagnostics_2.13" conf="default, compile, runtime, master" rev="2.5.23" rev-constraint-default="2.5.23" rev-constraint-dynamic="2.5.23" callerrev="1.1.12"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.13" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.3.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.13" type="jar" ext="jar" status="no" details="" size="3583504" time="0" location="/Users/hkumar/.ivy2/cache/com.typesafe.akka/akka-actor_2.13/jars/akka-actor_2.13-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.5.23" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.6.3"/>
+				<caller organisation="com.lightbend.akka" name="akka-diagnostics_2.13" conf="default, compile, runtime, master" rev="2.5.23" rev-constraint-default="2.5.23" rev-constraint-dynamic="2.5.23" callerrev="1.1.12"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.13">
+			<revision name="0.9.0" status="release" pubdate="20190608085219" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3031" time="0" location="/Users/hkumar/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="default, compile, runtime, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.13" type="jar" ext="jar" status="no" details="" size="640411" time="0" location="/Users/hkumar/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.13/jars/scala-java8-compat_2.13-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.4.0" status="release" pubdate="20191012032341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3138" time="0" location="/Users/hkumar/.ivy2/cache/com.typesafe/config/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="default, compile, runtime, master" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-common" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="2.13.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="294174" time="0" location="/Users/hkumar/.ivy2/cache/com.typesafe/config/bundles/config-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.4.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-common" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="2.13.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.1" status="release" pubdate="20190918045936" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/Users/hkumar/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-core_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.akka" name="akka-diagnostics_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.1.12"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="0.9.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-scala_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.1"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile, runtime-internal, runtime, optional" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.3.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5721063" time="0" location="/Users/hkumar/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

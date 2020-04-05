@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/resources/logback-test.xml,/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/test-classes/logback-test.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/resources/README.md,/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/test-classes/README.md)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/resources/application.conf,/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/target/scala-2.13/test-classes/application.conf)[0m

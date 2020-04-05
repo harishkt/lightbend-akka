@@ -1,0 +1,77 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 5 initial tasks for 5 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.CoffeeHouseSpec, sbt.ForkMain$SubclassFingerscan@4653c9e4, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging a status message at debug[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a child actor with the name 'barista'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a child actor with the name 'waiter'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CreateGuest to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging status guest added to guest book[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending ApproveCoffee to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in forwarding PrepareCoffee to Barista if caffeineLimit not yet reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in Barista sending a CoffeePrepared to Waiter if caffeineLimit not yet reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging status guest caffeine count incremented[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging a status message at info if caffeineLimit reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in stopping the Guest if caffeineLimit reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOn termination of Guest, CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging a thanks message at info[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOn failure of Guest CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should stop it[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOn failure of Waiter CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should restart it and resend PrepareCoffee to Barista[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 13 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.GuestSpec, sbt.ForkMain$SubclassFingerscan@57151c37, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGuestSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CoffeeServed to Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in increasing the coffeeCount and log a status message at info[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ServeCoffee to Waiter after finishCoffeeDuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending Complaint to Waiter for a wrong coffee[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CoffeeFinished to Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ServeCoffee to Waiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in a CaffeineException if caffeineLimit exceeded[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.WaiterSpec, sbt.ForkMain$SubclassFingerscan@5a8738f7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWaiterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending ServeCoffee to Waiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ApproveCoffee to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending Complaint to Waiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending PrepareCoffee to Barista[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in a FrustratedException if maxComplaintCount exceeded[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.CoffeeHouseAppSpec, sbt.ForkMain$SubclassFingerscan@f91af21, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseAppSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling argsToOpts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct opts for the given args[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling applySystemProperties[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should apply the system properties for the given opts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouseApp[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a top-level actor named 'coffee-house'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling createGuest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending CreateGuest to CoffeeHouse count number of times[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling getStatus[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging the AskTimeoutException at error for CoffeeHouse not responding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging the status at info[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending GetStatus to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in a Status response[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 7 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.coffeehouse.BaristaSpec, sbt.ForkMain$SubclassFingerscan@12ecd7ef, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaristaSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending PrepareCoffee to Barista[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending a CoffeePrepared response after prepareCoffeeDuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending a CoffeePrepared response with a random Coffee for an inaccurate one[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 721 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 30[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 30, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.CoffeeHouseSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.GuestSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.WaiterSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.CoffeeHouseAppSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.coffeehouse.BaristaSpec[0m

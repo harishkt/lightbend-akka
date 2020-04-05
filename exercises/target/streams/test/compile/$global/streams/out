@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/test/scala/com/lightbend/training/coffeehouse/BaristaSpec.scala:16:49: akka.actor.Props does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m      val barista = system.actorOf(Barista.props(100 milliseconds))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

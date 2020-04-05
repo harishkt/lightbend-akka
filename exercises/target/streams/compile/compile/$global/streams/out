@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/hkumar/Development/LAS-P-lightbend-akka-for-scala-professional-v1/exercises/src/main/scala/com/lightbend/training/coffeehouse/CoffeeHouse.scala:32:21: type CaffeineException is not a member of object com.lightbend.training.coffeehouse.Guest[0m
+[0m[[0m[31merror[0m] [0m[0m      case _: Guest.CaffeineException => Stop[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
